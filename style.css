@@ -305,11 +305,13 @@ main .section2 article p{
 }
 main .newsletter {
     width: 400px;
+	height: 200px;
     background: #519194;
    border: 5px solid #5fb3bd;
    border-radius: 4px;
    float: right;
    margin: 0;
+   margin-top: 20px;
    padding: 0 15px;
    position: relative;
 }
@@ -317,8 +319,9 @@ main  .newsletter img {
     display: block;
 	left: 0;
 	margin: 0;
-	padding: 0;
-	position: absolute;
+	margin-left: 0;
+	padding: auto;
+	float: left;
 	top: -13px;
 	z-index: 5;
     height: 300px;
@@ -334,53 +337,35 @@ main .newsletter p {
 	padding: 0;
     text-align: right;
 }
-
-
-
 footer {
 	background: #4c8f96;
 	border-top: 1px solid #9bd9e0;
 	margin: 0;
+	margin-top: 550px;
 	padding: 0;
 }
-footer > div {
+footer .connect {
 	margin: 0 auto;
 	padding: 30px 0 28px;
 	overflow: hidden;
 	text-align: center;
 	width: 960px;
 }
-footer div p {
+footer .connect p {
 	color: #ededed;
 	display: inline-block;
-	float: right;
 	font-size: 12px;
 	letter-spacing: 0.05em;
 	margin: 0;
 	padding: 27px 0 0;
 	text-align: center;
 }
-footer div .connect {
+footer .connect a {
 	background: #387a82;
-	float: right;
 	height: 18px;
 	margin: 0 20px 0 150px;
 	padding: 22px 20px;
 	overflow: hidden;
-	width: 144px;
-}
-footer div .connect {
-	color: #ededed;
-	display: inline-block;
-	float: left;
-	font-size: 12px;
-	height: 19px;
-	line-height: 21px;
-	margin: 0;
-	padding: 0 0 0 39px;
-}
-footer div .connect a {
-	background: url(../images/icons.png) no-repeat;
 	display: block;
 	float: left;
 	height: 20px;
@@ -389,27 +374,28 @@ footer div .connect a {
 	text-indent: -99999px;
 	width: 20px;
 }
-footer div .connect #twitter {
+footer .connect #twitter {
 	background-position: 0 -32px;
+
 }
-footer div .connect #twitter:hover {
+footer .connect #twitter:hover {
 	background-position: -25px -32px;
 }
-footer div .connect #facebook {
+footer .connect #facebook {
 	background-position: 0 -57px;
 }
-footer div .connect #facebook:hover {
+footer .connect #facebook:hover {
 	background-position: -25px -57px;
 }
-footer div .connect #googleplus {
+footer .connect #googleplus {
 	background-position: 0 -82px;
 }
-footer div .connect #googleplus:hover {
+footer .connect #googleplus:hover {
 	background-position: -25px -82px;
 }
-footer div .connect #pinterest {
+footer .connect #pinterest {
 	background-position: 0 -107px;
 }
-footer div .connect #pinterest:hover {
+footer .connect #pinterest:hover {
 	background-position: -25px -107px;
 }
