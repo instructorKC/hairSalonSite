@@ -56,7 +56,6 @@ body{
 }
 #header  section ul {
 	display: inline-block;
-	float: right;
 	margin: 0;
 	overflow: hidden;
 	padding: 74px 0 0;
@@ -64,7 +63,6 @@ body{
 #header section ul li {
 	background: url() no-repeat top right;
 	display: inline-block;
-	float: left;
 	list-style: none;
 	margin: 0 10px;
 	padding: 0;
@@ -91,4 +89,97 @@ body{
 }
 #header section ul li.selected a {
 	background: url(/photos/agustin-fernandez-m21YynrKdsw-unsplash.jpg) no-repeat top left;
+}
+#body {
+    line-height: 1;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif
+}
+#body h3 {
+    color: #2f394e;
+    font-size: 20px;
+    font-weight: normal;
+    margin: 0;
+    padding: 25px 10px 40px;
+    text-transform: capitalize;
+
+}
+#body b {
+    color: #2f394e;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0 10px;
+    text-transform: capitalize;
+}
+#body p {
+    color: #464646;
+    font-size: 13px;
+    line-height: 24px;
+    margin: 0;
+    padding: 30px 10px;
+}
+
+footer {
+	background: #4c8f96;
+	border-top: 1px solid #9bd9e0;
+	margin: 0;
+	margin-top: 550px;
+	padding: 0;
+}
+footer .connect {
+	margin: 0 auto;
+	padding: 30px 0 28px;
+	overflow: hidden;
+	text-align: center;
+	width: 960px;
+}
+footer .connect p {
+	color: #ededed;
+	display: inline-block;
+	font-size: 12px;
+	letter-spacing: 0.05em;
+	margin: 0;
+	padding: 27px 0 0;
+	text-align: center;
+}
+footer .connect a {
+	background: #387a82;
+	height: 18px;
+	margin: 0 20px 0 150px;
+	padding: 22px 20px;
+	overflow: hidden;
+	display: block;
+	float: left;
+	height: 20px;
+	margin: 0 8px;
+	padding: 0;
+	text-indent: -99999px;
+	width: 20px;
+}
+footer .connect #twitter {
+	background-position: 0 -32px;
+
+}
+footer .connect #twitter:hover {
+	background-position: -25px -32px;
+}
+footer .connect #facebook {
+	background-position: 0 -57px;
+}
+footer .connect #facebook:hover {
+	background-position: -25px -57px;
+}
+footer .connect #googleplus {
+	background-position: 0 -82px;
+}
+footer .connect #googleplus:hover {
+	background-position: -25px -82px;
+}
+footer .connect #pinterest {
+	background-position: 0 -107px;
+}
+footer .connect #pinterest:hover {
+	background-position: -25px -107px;
 }
