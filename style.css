@@ -13,13 +13,398 @@
 	src: url('../fonts/Comfortaa/Comfortaa-Regular.eot');
 	src: url('../fonts/Comfortaa/Comfortaa-Regular.woff') format('woff'), url('../fonts/Comfortaa/Comfortaa-Regular.ttf') format('truetype'), url('../fonts/Comfortaa/Comfortaa-Regular.svg') format('svg');
 }
+@media (min-width: 756px) {
+	body {
+		padding: 20px 0 50px;
+		width: 756px;
+		margin-left: auto;
+		margin-right: auto;
+	} 
+
+	#header {
+		margin: 0 auto;
+		padding: 0;
+		width: 756px;
+	}
+	
+	#header section {
+		margin: 0px;
+		padding: 0;
+		overflow: hidden;
+		background-color: rgb(45, 5, 68);
+	}
+	#header section .logo {
+		float: left;
+		margin: 0;
+		padding: 24px 0 0 10px;
+		width: 324px;
+	}
+	#header section .logo a {
+		background-color: darkviolet;	
+		color: #fff;
+		display: block;
+		font-family: 'Arimo-Bold';
+		font-size: 60px;
+		font-weight: normal;
+		height: 130px;
+		line-height: 130px;
+		margin: 0;
+		padding: 0;
+		text-align:center;
+		text-decoration: none;
+		text-transform: uppercase;
+		width: 270px;
+	}
+	#header  section ul {
+		display: inline-block;
+		float: right;
+		margin: 0;
+		overflow: hidden;
+		padding: 74px 0 0;
+	}
+	#header section ul li {
+		background: url() no-repeat top right;
+		display: inline-block;
+		float: left;
+		list-style: none;
+		margin: 0 10px;
+		padding: 0;
+	}
+	#header section ul li a {
+		background-color: darkviolet;
+		color: rgb(255, 255, 255);
+		display: inline-block;
+		font-size: 16px;
+		height: 30px;
+		letter-spacing: 0.05em;
+		line-height: 30px;
+		margin: 0;
+		padding: 0 15px;
+		text-align: center;
+		text-decoration: none;
+		text-transform: uppercase;
+	}
+	#header  section ul li a:hover {
+		color: #ccc;
+	}
+	#header section ul li.selected {
+		background: url(./photos/agustin-fernandez-m21YynrKdsw-unsplash.jpg) no-repeat top right;
+	}
+	#header section ul li.selected a {
+		background: url(./photos/agustin-fernandez-m21YynrKdsw-unsplash.jpg) no-repeat top left;
+	}
+	#header article {
+		background: #fff;
+		border: 2px solid rgb(45, 5, 68);
+		border-radius: 4px;
+		margin: 50px auto 28px;
+		overflow: hidden;
+		padding: 0;
+		width: auto;
+	}
+	#header article img {
+		display: block;
+		float: left;
+		margin: 0 50px 0 0;
+		padding: 0;
+		padding-left: 40px;
+		height: 300px;
+	}
+	#header article h1 {
+		color: #1b2130;
+		font-family: 'ChangaOne';
+		font-size: 40px;
+		font-weight: normal;
+		margin: 0;
+		line-height: 50px;
+		padding: 110px 30px 30px;
+		text-align: center;
+	}
+	
+	main ul li img {
+		height: 150px;
+		width: 200px;  
+	}
+	
+	main  ul {
+		margin: 0;
+		margin-bottom: 20px;
+		overflow: hidden;
+		padding: 0;
+	}
+	main  ul li {
+		float: left;
+		list-style: none;
+		margin: 0 10px;
+		padding: 0;
+		width: 220px;
+	}
+	main ul li a {
+		display: block;
+		margin: 0;
+		padding: 5px 5px 29px;
+	}
+	main ul li a:hover {
+		opacity: 0.9;
+	}
+	main ul li b {
+		color: #000;
+		display: block;
+		font-size: 18px;
+		font-weight: normal;
+		margin: 0;
+		padding: 10px 0 5px;
+		text-transform: capitalize;
+	}
+	main ul li p {
+		color: #464646;
+		font-size: 12px;
+		line-height: 24px;
+		margin: 0;
+		padding: 0;
+	}
+	main div {
+		margin: 0;
+		overflow: hidden;
+		padding: 50px 0 0;
+	}
+	main h2 {
+		color: #fff;
+		font-family: 'Comfortaa-regular';
+		font-size: 20px;
+		font-weight: normal;
+		height: 47px;
+		letter-spacing: 0.1em;
+		left: 15px;
+		line-height: 47px;
+		margin: 0;
+		padding: 0 25px;
+		position: absolute;
+		text-transform: capitalize;
+		top: -14px;
+	}
+	 main h3 {
+		 color: #2f394e;
+		 margin: 0%;
+		 padding: 0;
+		 font-size: 28px;
+		 font-weight: normal;
+		 margin: 0;
+		 padding: 25px 10px 48px;
+		 text-transform: capitalize;
+	 }
+	 main b {
+		 color: #2f394e;
+		 display: inline-block;
+		 font-size: 18px;
+		 font-weight: normal;
+		 margin: 0;
+		 padding: 0 10px;
+		 text-transform: capitalize;
+	 }
+	 main p {
+		 color: #464646;
+		 font-size: 13px;
+		 line-height: 24px;
+		 margin: 0;
+		 padding: 30px 10px;
+	 }
+	 main div {
+		 float: left;
+		 margin: 0 10px;
+		 padding: 0;
+	 }
+	 main .featured img{
+		 height: 100px;
+		 width: 100px;
+		 border-radius: 10px;
+	 }
+	 main .featured {
+		 background: #fff;
+		border: 5px solid rgb(45, 5, 68);
+		border-radius: 4px;
+		min-height: 450px;
+		padding: 45px 15px 15px;
+		position: relative;
+		width: 300px;
+		margin-left: auto;
+		margin-right: auto;
+	 }
+	 main .featured h2 {
+		 text-align: center;
+	 }
+	 main .featured h3 {
+		 color: #354057;
+		 font-size: 20px;
+		 font-weight: normal;
+		 margin: 0;
+		 padding: 10px 0 0;
+		 text-transform: none;
+	 }
+	 main .featured img {
+		 display: block;
+		 float: left;
+		 margin: 10px 30px 25px 0;
+		 padding: 0;
+	 }
+	 main .featured p {
+		 clear: both;
+		 color: #464646;
+		 font-size: 12px;
+		 line-height: 24px;
+		 margin: 0 0 24px;
+		 padding: 0;
+	 } 
+	 main .section2 {
+		 width: 350px;
+		 background: #ac00fc;
+		border: 5px solid rgb(45, 5, 68);
+		border-radius: 4px;
+		float: right;
+		margin: 0;
+		padding: 0 15px;
+		position: relative;
+	 }
+	
+	 main .section2 article {
+		height: 183px;
+		margin-bottom: 25px;
+		padding: 55px 15px 20px;
+		text-align: right;  
+	 }
+	main .section2 article h2 {
+		text-align: left;
+	}
+	main .section2 article h3 {
+		display: inline-block;
+		height: 40px;
+		margin: 0;
+		padding: 0;
+		text-indent: -99999px;
+		width: 31px;
+		color: #f5f5f5;
+		font-size: 18px;
+		text-decoration: none;
+	}
+	main .section2 article p{
+		color: #f5f5f5;
+		font-size: 12px;
+		line-height: 24px;
+		margin: 0;
+		padding: 20px 0px;
+		text-align: left;
+	}
+	main .newsletter {
+		width: 350px;
+		height: 200px;
+		background: #ac00fc;
+	   border: 5px solid rgb(45, 5, 68);
+	   border-radius: 4px;
+	   float: right;
+	   margin: 0;
+	   margin-top: 20px;
+	   padding: 0 15px;
+	   position: relative;
+	}
+	main  .newsletter img {
+		display: block;
+		left: 0;
+		margin: 0;
+		margin-left: 0;
+		padding: auto;
+		float: left;
+		top: -13px;
+		z-index: 5;
+		height: 300px;
+		width: 200px;
+	}
+	main .newsletter p {
+		color: #f5f5f5;
+		font-size: 16px;
+		font-weight: bold;
+		letter-spacing: 0.03em;
+		line-height: 30px;
+		margin: 0;
+		padding: 0;
+		text-align: right;
+	}
+	footer {
+		background: rgb(45, 5, 68);
+		border-top: 1px solid rgb(45, 5, 68);
+		margin: 0;
+		margin-top: 550px;
+		padding: 0;
+	}
+	footer .connect {
+		margin: 0 auto;
+		padding: 30px 0 28px;
+		overflow: hidden;
+		text-align: center;
+		width: 960px;
+	}
+	footer .connect p {
+		color: #ededed;
+		display: inline-block;
+		font-size: 12px;
+		letter-spacing: 0.05em;
+		margin: 0;
+		padding: 27px 0 0;
+		text-align: center;
+	}
+	footer .connect a {
+		background: #7e049c;
+		height: 18px;
+		margin: 0 20px 0 150px;
+		padding: 22px 20px;
+		overflow: hidden;
+		display: block;
+		float: left;
+		height: 20px;
+		margin: 0 8px;
+		padding: 0;
+		text-indent: -99999px;
+		width: 20px;
+	}
+	footer .connect #twitter {
+		background-position: 0 -32px;
+	
+	}
+	footer .connect #twitter:hover {
+		background-position: -25px -32px;
+	}
+	footer .connect #facebook {
+		background-position: 0 -57px;
+	}
+	footer .connect #facebook:hover {
+		background-position: -25px -57px;
+	}
+	footer .connect #googleplus {
+		background-position: 0 -82px;
+	}
+	footer .connect #googleplus:hover {
+		background-position: -25px -82px;
+	}
+	footer .connect #pinterest {
+		background-position: 0 -107px;
+	}
+	footer .connect #pinterest:hover {
+		background-position: -25px -107px;
+	 }
+	
+}
+
+@media (min-width: 1200px),( min-width: 900px){
+
 body{
     height: auto;
     width: 1000px;
     background: white;
+	margin-left: auto;
+	margin-right: auto;
+	
 }
 main {
-	background: #ededed url(../images/bg-header.gif) repeat-x top center;
+	background: #ffffff;
 	line-height: 1;
 	font-size: 14px;
 	font-family: Arial, Helvetica, sans-serif;
@@ -30,13 +415,14 @@ main {
 #header {
 	margin: 0 auto;
 	padding: 0;
-	width: 960px;
+	width: 1200px;
 }
 
 #header section {
-	margin: 0;
+	margin: 0px;
 	padding: 0;
 	overflow: hidden;
+	background-color: rgb(45, 5, 68);
 }
 #header section .logo {
 	float: left;
@@ -45,7 +431,7 @@ main {
 	width: 324px;
 }
 #header section .logo a {
-	background: url(./photos/agustin-fernandez-m21YynrKdsw-unsplash.jpg) repeat-x top left;
+	background-color: darkviolet;	
 	color: #fff;
 	display: block;
 	font-family: 'Arimo-Bold';
@@ -76,8 +462,8 @@ main {
 	padding: 0;
 }
 #header section ul li a {
-	background: url(./photos/agustin-fernandez-m21YynrKdsw-unsplash.jpg) no-repeat top left;
-	color: #fff;
+	background-color: darkviolet;
+	color: rgb(255, 255, 255);
 	display: inline-block;
 	font-size: 16px;
 	height: 30px;
@@ -100,7 +486,7 @@ main {
 }
 #header article {
 	background: #fff;
-	border: 2px solid #5fb3bd;
+	border: 2px solid rgb(45, 5, 68);
 	border-radius: 4px;
 	margin: 50px auto 28px;
 	overflow: hidden;
@@ -131,12 +517,6 @@ main ul li img {
     width: 200px;  
 }
 
-body {
-    margin: 0 auto;
-    min-height: 812px;
-    padding: 20px 0 50px;
-    width: 960px;
-} 
 main  ul {
     margin: 0;
     margin-bottom: 20px;
@@ -232,7 +612,7 @@ main h2 {
  }
  main .featured {
      background: #fff;
-    border: 5px solid #5fb3db;
+    border: 5px solid rgb(45, 5, 68);
     border-radius: 4px;
     min-height: 450px;
     padding: 45px 15px 15px;
@@ -266,8 +646,8 @@ main h2 {
  } 
  main .section2 {
      width: 400px;
-     background: #519194;
-	border: 5px solid #5fb3bd;
+     background: #ac00fc;
+	border: 5px solid rgb(45, 5, 68);
 	border-radius: 4px;
 	float: right;
 	margin: 0;
@@ -306,8 +686,8 @@ main .section2 article p{
 main .newsletter {
     width: 400px;
 	height: 200px;
-    background: #519194;
-   border: 5px solid #5fb3bd;
+    background: #ac00fc;
+   border: 5px solid rgb(45, 5, 68);
    border-radius: 4px;
    float: right;
    margin: 0;
@@ -338,8 +718,8 @@ main .newsletter p {
     text-align: right;
 }
 footer {
-	background: #4c8f96;
-	border-top: 1px solid #9bd9e0;
+	background: rgb(45, 5, 68);
+	border-top: 1px solid rgb(45, 5, 68);
 	margin: 0;
 	margin-top: 550px;
 	padding: 0;
@@ -361,7 +741,7 @@ footer .connect p {
 	text-align: center;
 }
 footer .connect a {
-	background: #387a82;
+	background: #7e049c;
 	height: 18px;
 	margin: 0 20px 0 150px;
 	padding: 22px 20px;
@@ -398,4 +778,6 @@ footer .connect #pinterest {
 }
 footer .connect #pinterest:hover {
 	background-position: -25px -107px;
+ }
 }
+
