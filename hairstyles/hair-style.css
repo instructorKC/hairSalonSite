@@ -14,79 +14,432 @@
 	src: url('../fonts/Comfortaa/Comfortaa-Regular.woff') format('woff'), url('../fonts/Comfortaa/Comfortaa-Regular.ttf') format('truetype'), url('../fonts/Comfortaa/Comfortaa-Regular.svg') format('svg');
 }
 
-body{
-    background: white;
-    margin: 0 auto;
-    min-height: 812px;
-    padding: 20px 0 50px;
-    width: 960px;
-}
-#header {
-	margin: 0 auto;
-	padding: 0;
-	width: 960px;
-}
+@media (min-width: 500px){
+	body {
+		padding: 20px 0 50px;
+		width: 500px;
+		margin-left: auto;
+		margin-right: auto;
+	} 
 
-#header section {
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
+	#header {
+		padding: 0;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	#header section {
+		/* margin: 0px; */
+		padding: 0;
+		overflow: hidden;
+		background-color: rgb(45, 5, 68);
+	}
+	#header section .logo {
+		float: left;
+		margin: 0;
+		padding: 24px 0 0 10px;
+		width: 324px;
+	}
+	#header section .logo a {
+		background-color: darkviolet;	
+		color: #fff;
+		display: block;
+		font-family: 'Arimo-Bold';
+		font-size: 60px;
+		font-weight: normal;
+		height: 130px;
+		line-height: 130px;
+		padding: 0;
+		text-align:center;
+		text-decoration: none;
+		text-transform: uppercase;
+	}
+
+	#header  section ul {
+		display: inline-block;
+		overflow: hidden;
+		padding: 74px 0 0;
+	}
+	#header section ul li {
+		background: url() no-repeat top right;
+		display: inline-block;
+		list-style: none;
+		margin: 0 10px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 10px;
+		padding: 0;
+	}
+	#header section ul li a {
+		background-color: darkviolet;
+		color: rgb(255, 255, 255);
+		display: inline-block;
+		font-size: 16px;
+		height: 30px;
+		letter-spacing: 0.05em;
+		line-height: 30px;
+		padding: 0 15px;
+		text-align: center;
+		text-decoration: none;
+		text-transform: uppercase;
+	}
+	#header  section ul li a:hover {
+		color: #ccc;
+	}
+	main img {
+		border: rebeccapurple outset 5px;
+		margin-top: 20px;
+		margin-left: 20px;
+		margin-right: auto;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		height: 300px;
+		width: 300px;  
+	}
+	footer {
+		background: rgb(45, 5, 68);
+		border-top: 1px solid rgb(45, 5, 68);
+		margin: 0;
+		margin-top: 10px;
+		padding-bottom: 100px;
+		padding: 0;
+	}
+	footer .connect {
+		margin: 0 auto;
+		padding: 30px 0 28px;
+		overflow: hidden;
+		text-align: center;
+	}
+	footer .connect p {
+		color: #ededed;
+		display: inline-block;
+		font-size: 12px;
+		letter-spacing: 0.05em;
+		margin: 0;
+		padding: 27px 0 0;
+		text-align: center;
+	}
+	footer .connect a {
+		background: #7e049c;
+		height: 18px;
+		margin: 0 20px 0 150px;
+		padding: 22px 20px;
+		overflow: hidden;
+		display: block;
+		float: left;
+		height: 20px;
+		margin: 0 8px;
+		padding: 0;
+		text-indent: -99999px;
+		width: 20px;
+	}
+
+	footer .connect #twitter {
+		background-position: 0 -32px;
+	
+	}
+	footer .connect #twitter:hover {
+		background-position: -25px -32px;
+	}
+	footer .connect #facebook {
+		background-position: 0 -57px;
+	}
+	footer .connect #facebook:hover {
+		background-position: -25px -57px;
+	}
+	footer .connect #googleplus {
+		background-position: 0 -82px;
+	}
+	footer .connect #googleplus:hover {
+		background-position: -25px -82px;
+	}
+	footer .connect #pinterest {
+		background-position: 0 -107px;
+	}
+	footer .connect #pinterest:hover {
+		background-position: -25px -107px;
+	 }
 }
-#header section .logo {
-	float: left;
-	margin: 0;
-	padding: 24px 0 0 10px;
-	width: 324px;
+@media (min-width: 756px) {
+
+	body {
+		padding: 20px 0 50px;
+		width: 756px;
+		margin-left: auto;
+		margin-right: auto;
+	} 
+
+	#header {
+		padding: 0;
+		width: 756px;
+	}
+	
+	#header section {
+		/* margin: 0px; */
+		padding: 0;
+		overflow: hidden;
+		background-color: rgb(45, 5, 68);
+	}
+	#header section .logo {
+		float: left;
+		margin: 0;
+		padding: 24px 0 0 10px;
+		width: 324px;
+	}
+	#header section .logo a {
+		background-color: darkviolet;	
+		color: #fff;
+		display: block;
+		font-family: 'Arimo-Bold';
+		font-size: 60px;
+		font-weight: normal;
+		height: 130px;
+		line-height: 130px;
+		padding: 0;
+		text-align:center;
+		text-decoration: none;
+		text-transform: uppercase;
+	}
+
+	#header  section ul {
+		display: inline-block;
+		overflow: hidden;
+		padding: 74px 0 0;
+	}
+	#header section ul li {
+		background: url() no-repeat top right;
+		display: inline-block;
+		list-style: none;
+		margin: 0 10px;
+		padding: 0;
+	}
+	#header section ul li a {
+		background-color: darkviolet;
+		color: rgb(255, 255, 255);
+		display: inline-block;
+		font-size: 16px;
+		height: 30px;
+		letter-spacing: 0.05em;
+		line-height: 30px;
+		padding: 0 15px;
+		text-align: center;
+		text-decoration: none;
+		text-transform: uppercase;
+	}
+	#header  section ul li a:hover {
+		color: #ccc;
+	}
+
+	footer {
+		background: rgb(45, 5, 68);
+		border-top: 1px solid rgb(45, 5, 68);
+		margin: 0;
+		margin-top: 50px;
+		padding: 0;
+	}
+	footer .connect {
+		margin: 0 auto;
+		padding: 30px 0 28px;
+		overflow: hidden;
+		text-align: center;
+	}
+	footer .connect p {
+		color: #ededed;
+		display: inline-block;
+		font-size: 12px;
+		letter-spacing: 0.05em;
+		margin: 0;
+		padding: 27px 0 0;
+		text-align: center;
+	}
+	footer .connect a {
+		background: #7e049c;
+		height: 18px;
+		margin: 0 20px 0 150px;
+		padding: 22px 20px;
+		overflow: hidden;
+		display: block;
+		float: left;
+		height: 20px;
+		margin: 0 8px;
+		padding: 0;
+		text-indent: -99999px;
+		width: 20px;
+	}
+
+	footer .connect #twitter {
+		background-position: 0 -32px;
+	
+	}
+	footer .connect #twitter:hover {
+		background-position: -25px -32px;
+	}
+	footer .connect #facebook {
+		background-position: 0 -57px;
+	}
+	footer .connect #facebook:hover {
+		background-position: -25px -57px;
+	}
+	footer .connect #googleplus {
+		background-position: 0 -82px;
+	}
+	footer .connect #googleplus:hover {
+		background-position: -25px -82px;
+	}
+	footer .connect #pinterest {
+		background-position: 0 -107px;
+	}
+	footer .connect #pinterest:hover {
+		background-position: -25px -107px;
+	 }
+
 }
-#header section .logo a {
-	background: url(/photos/agustin-fernandez-m21YynrKdsw-unsplash.jpg) repeat-x top left;
-	color: #fff;
-	display: block;
-	font-family: 'Arimo-Bold';
-	font-size: 60px;
-	font-weight: normal;
-	height: 130px;
-	line-height: 130px;
-	margin: 0;
-	padding: 0;
-	text-align:center;
-	text-decoration: none;
-	text-transform: uppercase;
-	width: 270px;
-}
-#header  section ul {
-	display: inline-block;
-	margin: 0;
-	overflow: hidden;
-	padding: 74px 0 0;
-}
-#header section ul li {
-	background: url() no-repeat top right;
-	display: inline-block;
-	list-style: none;
-	margin: 0 10px;
-	padding: 0;
-}
-#header section ul li a {
-	background: url(/photos/agustin-fernandez-m21YynrKdsw-unsplash.jpg) no-repeat top left;
-	color: #fff;
-	display: inline-block;
-	font-size: 16px;
-	height: 30px;
-	letter-spacing: 0.05em;
-	line-height: 30px;
-	margin: 0;
-	padding: 0 15px;
-	text-align: center;
-	text-decoration: none;
-	text-transform: uppercase;
-}
-#header  section ul li a:hover {
-	color: #ccc;
-}
-#header section ul li.selected {
-	background: url(/photos/agustin-fernandez-m21YynrKdsw-unsplash.jpg) no-repeat top right;
-}
-#header section ul li.selected a {
-	background: url(/photos/agustin-fernandez-m21YynrKdsw-unsplash.jpg) no-repeat top left;
+@media (min-width: 1200px),( min-width: 900px){
+
+	body{
+		height: auto;
+		background: white;
+		margin-left: auto;
+		margin-right: auto;
+		background: #ffffff;
+		line-height: 1;
+		font-size: 14px;
+		font-family: Arial, Helvetica, sans-serif;
+		padding: 0;
+		width: 1000px;
+	}
+	
+	#header {
+		padding: 0;
+		width: 1000px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	#header section {
+		padding: 0;
+		overflow: hidden;
+		background-color: rgb(45, 5, 68);
+	}
+	#header section .logo {
+		
+		padding: 24px 0 0 10px;
+		width: 324px;
+	}
+	#header section .logo a {
+		background-color: darkviolet;	
+		color: #fff;
+		display: block;
+		font-family: 'Arimo-Bold';
+		font-size: 60px;
+		font-weight: normal;
+		height: 130px;
+		line-height: 130px;
+		margin: 0;
+		padding: 0;
+		text-align:center;
+		text-decoration: none;
+		text-transform: uppercase;
+		width: 270px;
+	}
+	#header  section ul {
+		display: inline-block;
+		margin: 0;
+		overflow: hidden;
+		padding: 74px 0 0;
+	}
+	#header section ul li {
+		background: url() no-repeat top right;
+		display: inline-block;
+		list-style: none;
+		margin: 0 10px;
+		padding: 0;
+	}
+	#header section ul li a {
+		background-color: darkviolet;
+		color: rgb(255, 255, 255);
+		display: inline-block;
+		font-size: 16px;
+		height: 30px;
+		letter-spacing: 0.05em;
+		line-height: 30px;
+		margin: 0;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0 15px;
+		text-align: center;
+		text-decoration: none;
+		text-transform: uppercase;
+	}
+	#header  section ul li a:hover {
+		color: #ccc;
+	}
+	#header section ul li.selected {
+		background: url(./photos/agustin-fernandez-m21YynrKdsw-unsplash.jpg) no-repeat top right;
+	}
+	#header section ul li.selected a {
+		background: url(./photos/agustin-fernandez-m21YynrKdsw-unsplash.jpg) no-repeat top left;
+	}
+	footer {
+		background: rgb(45, 5, 68);
+		border-top: 1px solid rgb(45, 5, 68);
+		margin: 0;
+		margin-top: 50px;
+		padding: 0;
+	}
+	footer .connect {
+		margin: 0 auto;
+		padding: 30px 0 28px;
+		overflow: hidden;
+		text-align: center;
+		width: 960px;
+	}
+	footer .connect p {
+		color: #ededed;
+		display: inline-block;
+		font-size: 12px;
+		letter-spacing: 0.05em;
+		margin: 0;
+		padding: 27px 0 0;
+		text-align: center;
+	}
+	footer .connect a {
+		background: #7e049c;
+		height: 18px;
+		margin: 0 20px 0 150px;
+		padding: 22px 20px;
+		overflow: hidden;
+		display: block;
+		float: left;
+		height: 20px;
+		margin: 0 8px;
+		padding: 0;
+		text-indent: -99999px;
+		width: 20px;
+	}
+	footer .connect #twitter {
+		background-position: 0 -32px;
+	
+	}
+	footer .connect #twitter:hover {
+		background-position: -25px -32px;
+	}
+	footer .connect #facebook {
+		background-position: 0 -57px;
+	}
+	footer .connect #facebook:hover {
+		background-position: -25px -57px;
+	}
+	footer .connect #googleplus {
+		background-position: 0 -82px;
+	}
+	footer .connect #googleplus:hover {
+		background-position: -25px -82px;
+	}
+	footer .connect #pinterest {
+		background-position: 0 -107px;
+	}
+	footer .connect #pinterest:hover {
+		background-position: -25px -107px;
+	 }
 }
